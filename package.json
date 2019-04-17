@@ -14,7 +14,7 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
-  "bin": "./bin/index.js",
+  "bin": "./.bin/index.js",
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "body-parser": "^1.18.3",
