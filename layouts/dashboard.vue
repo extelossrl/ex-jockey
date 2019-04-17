@@ -27,7 +27,7 @@ export default {
 <style lang="scss" scoped>
 .layout {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 300px minmax(0, 1fr);
   grid-template-rows: 52px 1fr;
   grid-template-areas: "navbar navbar" "sidebar main";
   min-height: 100vh;
